@@ -6,5 +6,5 @@
 typings/
 
 node_modules/
-wellio-dev-zenpylon-firebase-admin-key.json
+.wellio-dev-zenpylon-firebase-admin-key.json
 .runtimeconfig.json
