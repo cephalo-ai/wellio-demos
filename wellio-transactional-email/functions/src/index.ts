@@ -3,7 +3,7 @@ import * as admin from 'firebase-admin';
 
 import { onUserRegistrationSendEmailHandler } from './on-user-registration-send-email';
 
-const serviceAccount = require('../wellio-dev-zenpylon-firebase-admin-key.json');
+const serviceAccount = require('../../../keys/wellio-dev-zenpylon-firebase-admin-key.json');
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: 'https://wellio-dev-zenpylon.firebaseio.com'
