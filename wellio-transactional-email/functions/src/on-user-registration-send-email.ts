@@ -81,7 +81,6 @@ const triggerSendGridEmail = (
   const mailData = {
     to: emailData.emailAddress,
     from: 'info@getwellio.com',
-    subject: 'From wellio, with love 💜',
     send_at: moment()
       .add(delayInSeconds, 'seconds')
       .unix(),
